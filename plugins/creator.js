@@ -5,10 +5,10 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 
   const sentMsg = await conn.sendContactArray(m.chat, [
-    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `💌 Owner Bot `, `ɴᴏᴛ ғᴀᴍᴏᴜs ᴊᴜsᴛ ᴀʟᴏɴᴇ ʙᴏʏ`, `Dick`, `🇮🇩 Indonesia`, `📍 i don't know`, `👤 ᴏᴡɴᴇʀ ᴇʟᴀɪɴᴀ ʙᴏᴛ`],
-    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🎈 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ`, `📵 ᴅᴏɴᴛ sᴘᴀᴍ/ᴄᴀʟʟ ᴍᴇ 😢`, `ɴᴏᴛʜɪɴɢ`, `🇮🇩 Indonesia`, `📍 i don't know`, `ʜᴀɴʏᴀ ʙᴏᴛ ʙɪᴀsᴀ ʏᴀɴɢ ᴋᴀᴅᴀɴɢ sᴜᴋᴀ ᴇʀᴏʀ ☺`]
+    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `💌 Owner Bot `, `Just love poetry and 🎶`, `Dick`, `🇮🇩 Indonesia`, `📍 i don't know`, `👤 ZulBot - MD`],
+    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🎈 Bot Whatsapp`, `📵 dont spam/call me😢`, `Nothing`, `🇮🇩 Indonesia`, `📍 i don't know`, `Hanya bot biasa ya g kadang suka errro ☺`]
   ], fkontak)
-  await m.reply(`ᴍʏ ᴏᴡɴᴇʀ ᴅᴏɴᴛ sᴘᴀᴍ ᴏʀ ʏᴏᴜ ᴡɪʟʟ ʙᴇ ʙʟᴏᴄᴋᴇᴅ`)
+  await m.reply(`my owner dont spam or you will be blocked`)
   } 
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
