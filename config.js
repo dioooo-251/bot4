@@ -26,12 +26,12 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 global.sig = 'private dulu yah syangku' //instagram
 global.sgh = 'https://github.com/dioooo-251' //github
-global.sgc = 'https://chat.whatsapp.com/JmsgzJllAAB8zHfQcJXxES' //group whatsapp
-global.saluran = 'https://chat.whatsapp.com/JmsgzJllAAB8zHfQcJXxES' //saluran whatsapp
-global.syt = 'https://www.youtube.com/@yassxofc' //youtube
+global.sgc = 'coming soon syangku' //group whatsapp
+global.saluran = 'coming soon syangku' //saluran whatsapp
+global.syt = 'ga ada yach' //youtube
 global.swa = 'https://wa.me/6285796919851' //whatsapp
-global.tele = 'https://t.me/' //telegram
-global.sdc = 'https://discord.gg/' //discord
+global.tele = 'coming soon syangku' //telegram
+global.sdc = 'ga ada yach syangku' //discord
 global.snh = 'https://nhentai.net/' //nhentai
 
 /*============== PAYMENT ==============*/
@@ -324,7 +324,7 @@ global.wait = '🚩 ʟᴏᴀᴅɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ... '
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 851-7983-6603'
+global.phn = '+6285796919851'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -364,8 +364,8 @@ global.htjava = '⫹⫺'    //hiasan
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'ᴇʟᴀɪɴᴀ ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ'
-global.stickauth = `☂︎\n𝗘\nl\na\ni\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ\nwa.me/${global.nomorbot}`
+global.stickpack = 'ZulBot Multidevice'
+global.stickauth = `☂︎\nZ\nu\nl\nB\no\nt\n-\nM\nD\n✦\n\n⫹⫺ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ\nwa.me/${global.nomorbot}`
 global.packname = 'Sticker'
 global.packname2 = 'Create By ZulBot - MD'
 
