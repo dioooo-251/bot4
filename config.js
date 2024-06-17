@@ -95,18 +95,18 @@ global.wm = 'ZulBot - MD' //wm1
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ZulBot - MD˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷' //wm2
 global.wm3 = '• ZulBot - MD Multidevace' //wm3
 global.namedoc = 'Taylors Version' //nama document
-global.botdate = `• ᴅᴀʏ's: ${week} ${date}`
-global.bottime = `ᴛɪᴍᴇ: ${wktuwib}`
-global.titlebot = '🎋 ┊ sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ'
+global.botdate = `• Day's: ${week} ${date}`
+global.bottime = `Time: ${wktuwib}`
+global.titlebot = '🎋 ┊ Simple Bot Wa'
 global.author = global.wm
 
 /*============== THUMB ==============*/
-global.elaina = 'https://telegra.ph/file/ccfab120681cd8bff3245.jpg'
+global.elaina = 'https://telegra.ph/file/f982355b1257f83642fae.jpg'
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg' //thumbnail
-global.thumb2 = 'https://telegra.ph/file/26b515d170f1e599f78a7.jpg'
-global.thumbbc = 'https://telegra.ph/file/05f874dc87f7e27fa8127.jpg' //broadcast
+global.thumb = 'https://telegra.ph/file/a631aa8322773f503c571.jpg' //thumbnail
+global.thumb2 = 'https://telegra.ph/file/c283c9b17158af5695282.jpg'
+global.thumbbc = 'https://telegra.ph/file/033520af62124fcc18168.jpg' //broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
 global.thumblvlup = 'https://telegra.ph/file/a3e66e0fa840b08236c75.jpg'
 global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
@@ -320,10 +320,10 @@ global.flaaa = [
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='] 
 
 /*============== TEXT ==============*/
-global.wait = '🚩 ʟᴏᴀᴅɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ... '
+global.wait = '🚩 Loading Please Wait... '
 global.eror = '```404 error```'
-global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
+global.dtu = 'Instagram'
+global.dtc = 'Call Owner'
 global.phn = '+6285796919851'
 
 /*=========== TYPE DOCUMENT ===========*/
@@ -334,7 +334,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/f48a5b1bd456492a7cdfc.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
