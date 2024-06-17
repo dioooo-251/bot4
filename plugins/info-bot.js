@@ -25,13 +25,13 @@ await conn.sendMessage(m.chat, {text: loadd[i], edit: key })}
     let uptime = clockString(_uptime)
     let sts = ` – *ɪɴғᴏ ʙᴏᴛ ᴇʟᴀɪɴᴀ ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ*
     
-┌ ◦ ᴀᴋᴛɪғ sᴇʟᴀᴍᴀ ${uptime}
-│ ◦ *${groups.length}* ɢʀᴜᴘ
-│ ◦ *${chats.length - groups.length}* ᴄʜᴀᴛ ᴘʀɪʙᴀᴅɪ
-│ ◦ *${Object.keys(global.db.data.users).length}* ᴘᴇɴɢɢᴜɴᴀ
-│ ◦ ${block == undefined ? '*0* ᴅɪʙʟᴏᴄᴋɪʀ' : '*' + block.length + '* ᴅɪʙʟᴏᴄᴋɪʀ'}
-│ ◦ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* ᴄʜᴀᴛ ᴛᴇʀʙᴀɴɴᴇᴅ
-└ ◦ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* ᴘᴇɴɢɢᴜɴᴀ ᴛᴇʀʙᴀɴɴᴇᴅ
+┌ ◦ Aktif Selama ${uptime}
+│ ◦ *${groups.length}* Group
+│ ◦ *${chats.length - groups.length}* Chat Pribadi
+│ ◦ *${Object.keys(global.db.data.users).length}* Pengguna
+│ ◦ ${block == undefined ? '*0* ᴅɪʙʟᴏᴄᴋɪʀ' : '*' + block.length + '* Diblokir'}
+│ ◦ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+└ ◦ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 
 ᴇʟᴀɪɴᴀ-ᴀɪ`
 await conn.sendMessage(m.chat, {
@@ -46,8 +46,8 @@ await conn.sendMessage(m.chat, {
                     showAdAttribution: true,
                     forwardingScore: 2023,
                     title: 'ɪ ɴ ғ ᴏ  ᴇ ʟ ᴀ ɪ ɴ ᴀ',
-                    thumbnailUrl: 'https://telegra.ph/file/8345a7d4161c3eb472a39.jpg',
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaJHq2XFSAsz4dtOTE0T',
+                    thumbnailUrl: 'https://telegra.ph/file/f982355b1257f83642fae.jpg',
+                    sourceUrl: 'yuhhhhhuuuuy',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                     mentionedJid: [m.sender]
@@ -59,7 +59,7 @@ await conn.sendMessage(m.chat, {
  ptt: true, 
 seconds: 18,
 fileLength: 18,
- ptt: true, contextInfo: { forwardingScore: 999, isForwarded: false, externalAdReply: {title: 'ᴇʟᴀɪɴᴀ ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ', body: wm, sourceUrl: 'https://whatsapp.com/channel/0029VaJHq2XFSAsz4dtOTE0T', thumbnail: await (await fetch(thumb)).buffer(),}}  
+ ptt: true, contextInfo: { forwardingScore: 999, isForwarded: false, externalAdReply: {title: 'ZulBot - MD', body: wm, sourceUrl: 'yuhhhhuyyy', thumbnail: await (await fetch(thumb)).buffer(),}}  
   }) 
 }
 handler.help = ['botstatus']
