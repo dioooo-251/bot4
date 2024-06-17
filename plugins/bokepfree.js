@@ -3,7 +3,7 @@ let info = `
      bjir tobat bro🗿!
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', 'agak laen si jawa ini', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', 'agak laen nig orang', 'status@broadcast')
 }
 handler.help = ['bokepfree']
 handler.tags = ['asupan']
