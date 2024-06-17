@@ -54,16 +54,16 @@ const defaultMenu = {
  乂  *S T A T I S T I C*
 
 . .╭── ︿︿︿︿︿ .   .   .   .   .   . 
-. .┊ ‹‹ *ɴᴀᴍᴇ* :: %name
-. .┊•*⁀➷ °... ℛᥱᥲd thι᥉ ...
+. .┊ ‹‹ *name* :: %name
+. .┊•*⁀➷ °... Read this ...
 . .╰─── ︶︶︶︶ ♡⃕  ⌇. . .
- . . ┊⿻ [ *ʀᴜɴᴛɪᴍᴇ* :: %muptime] . .
- . . ┊⿻ [ *ᴘʀᴇғɪx* :: <%p>] . .
- . . ┊⿻ [ *ᴅᴀᴛᴀʙᴀsᴇ* :: %totalreg] . .
- . . ┊⿻ [ *ᴅᴀᴛᴇ* :: %date]. . 
- . . ┊⿻ [ *ᴘʟᴀᴛғᴏʀᴍ* :: %platform]. . 
- . . ┊⿻ [ *ʟɪʙʀᴀʀʏ* :: @whiskeysocket/baileys]. . 
- . . ┊⿻ [ *ᴄʀᴇᴀᴛᴏʀ* :: ᴏʀᴀɴɢ ]. . 
+ . . ┊⿻ [ *runtime* :: %muptime] . .
+ . . ┊⿻ [ *prefix* :: <%p>] . .
+ . . ┊⿻ [ *database* :: %totalreg] . .
+ . . ┊⿻ [ *data* :: %date]. . 
+ . . ┊⿻ [ *platform* :: %platform]. . 
+ . . ┊⿻ [ *library* :: @whiskeysocket/baileys]. . 
+ . . ┊⿻ [ *creator* :: ᴏʀᴀɴɢ ]. . 
  . . ╰─────────╮
 
 エラーを見つけた場合、またはプレミアム プランをアップグレードしたい場合は、所有者に連絡してください。
@@ -72,7 +72,7 @@ const defaultMenu = {
   header: '─₍🍁₎❝┊ *%category*',
   body: `┊꒱ ☁   %cmd %islimit %isPremium `,
   footer: '╰─── –',
-  after: `ᴇʟᴀɪɴᴀ ᴀɪ ${global.version}`,
+  after: `ZulBot - MD ${global.version}`,
 }
   try {
     let name = m.pushName || conn.getName(m.sender)
@@ -108,7 +108,7 @@ const defaultMenu = {
       }) * 1000
     }
     
-    let bjir = 'https://telegra.ph/file/b6756bcee9059b0c532e7.jpg'
+    let bjir = 'https://telegra.ph/file/a631aa8322773f503c571.jpg'
     let totalreg = Object.keys(global.db.data.users).length
     let platform = os.platform()
     let muptime = clockString(_muptime)
@@ -171,8 +171,8 @@ const defaultMenu = {
                 externalAdReply: {
                     showAdAttribution: true,
                     forwardingScore: 2023,
-                    title: 'ᴍ ᴇ ɴ ᴜ  ʙ ᴏ ᴛ  ᴇ ʟ ᴀ ɪ ɴ ᴀ',
-                    thumbnailUrl: 'https://telegra.ph/file/002e7bf25b03f8e54fcc1.jpg',
+                    title: 'menu ZulBot - MD',
+                    thumbnailUrl: 'https://telegra.ph/file/f982355b1257f83642fae.jpg',
                     sourceUrl: 'https://s.id/publikchatgroupbyrapikz',
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -180,7 +180,7 @@ const defaultMenu = {
                      }}}, { quoted: memek })
                      await conn.sendFile(m.chat, apalah, 'menu.mp3', null, m, true, {
  type: 'audioMessage',  
- ptt: true, contextInfo: { forwardingScore: 999, isForwarded: false, externalAdReply: {title: 'ᴇʟᴀɪɴᴀ ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ', body: wm, sourceUrl: 'https://whatsapp.com/channel/0029VaF8RYn9WtC16ecZws0H', thumbnail: await (await fetch(bjir)).buffer(),}}  
+ ptt: true, contextInfo: { forwardingScore: 999, isForwarded: false, externalAdReply: {title: 'ZulBot - MD', body: wm, sourceUrl: 'yuhhhuuy', thumbnail: await (await fetch(bjir)).buffer(),}}  
   }) 
     } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
