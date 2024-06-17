@@ -42,14 +42,14 @@ let handler = async function (m, { text, usedPrefix, command }) {
     let sn = createHash('md5').update(m.sender).digest('hex')
     let cap = `
 ┏─• *USER*
-│➼ *sᴛᴀᴛᴜs:*  sᴜᴄᴄᴇssғᴜʟ ✓
-│➼ *ɴᴀᴍᴇ:* ${name}
-│➼ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
+│➼ *Status:*  successful ✓
+│➼ *Name:* ${name}
+│➼ *Age:* ${age} ʏᴇᴀʀs
 ┗───•
- ➼ *sɴ:* ${sn}
+ ➼ *SN:* ${sn}
  
-ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ʙᴀᴄᴀ ʀᴜʟᴇs ʏᴀ ᴋᴀᴋ...
-ᴅᴀᴛᴀ ᴜsᴇʀ ʏᴀɴɢ ᴛᴇʀsɪᴍᴘᴀɴ ᴅɪᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ, ᴅɪᴊᴀᴍɪɴ ᴀᴍᴀɴ ᴛᴀɴᴘᴀ ᴛᴇʀsʜᴀʀᴇ\n*.allmenu [Menampilkan Semua Fitur]*
+Jangan Lupa Baca Rules Yah Kak...
+Data User Tersimpan Dalam Database Bot, Dijamin Aman Tanpa Tershare\n*.allmenu [Menampilkan Semua Fitur]*
 
 ❍ 𝗗𝗮𝘁𝗲: ${week} ${date}
 ❍ 𝗧𝗶𝗺𝗲: ${wktuwib}
