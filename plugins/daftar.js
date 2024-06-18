@@ -147,7 +147,7 @@ let tags = {
     let prems = `${premium > 0 ? 'Premium': 'Free'}`
     let platform = os.platform()
     
-    let bjir = 'https://telegra.ph/file/b7e407a6472f01eedced5.jpg'
+    let bjir = 'https://telegra.ph/file/a631aa8322773f503c571.jpg'
     //---------------------
     
     let totalreg = Object.keys(global.db.data.users).length
