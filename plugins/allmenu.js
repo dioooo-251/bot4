@@ -48,8 +48,8 @@ let user = `@${m.sender.split('@')[0]}`
   
 let tags = {}
 const defaultMenu = {
-  before: `こんにちは、お姉さん %name 🍁.
-私は、何かをしたり、検索したり、データ/情報を取得したりするのに役立つ自動システム (whatsapp ボット) ですが、whatsapp です。 
+  before: `Halo, saudari  %name 🍁.
+Saya adalah sistem otomatis (bot whatsapp) yang membantu Anda melakukan sesuatu, mencari atau mendapatkan data/informasi, tetapi whatsapp。 
 
  乂  *S T A T I S T I C*
 
@@ -63,10 +63,10 @@ const defaultMenu = {
  . . ┊⿻ [ *data* :: %date]. . 
  . . ┊⿻ [ *platform* :: %platform]. . 
  . . ┊⿻ [ *library* :: @whiskeysocket/baileys]. . 
- . . ┊⿻ [ *creator* :: ᴏʀᴀɴɢ ]. . 
+ . . ┊⿻ [ *creator* :: manusia ]. . 
  . . ╰─────────╮
 
-エラーを見つけた場合、またはプレミアム プランをアップグレードしたい場合は、所有者に連絡してください。
+Jika Anda menemukan kesalahan atau ingin meningkatkan paket premium Anda, silakan hubungi pemiliknya。
 %readmore
 `.trimStart(),
   header: '─₍🍁₎❝┊ *%category*',
