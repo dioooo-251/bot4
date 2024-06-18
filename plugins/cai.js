@@ -8,8 +8,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       contextInfo: {
       externalAdReply: {
         title: 'C.ai',
-        body: 'E L A I N A  M U L T I D E V I C E',
-        thumbnailUrl: 'https://telegra.ph/file/6d3139a708c069f2cc5b5.jpg',
+        body: 'Z u l B o t - M u l t i d e v i ce',
+        thumbnailUrl: 'https://telegra.ph/file/a631aa8322773f503c571.jpg',
         sourceUrl: 'https://whatsapp.com/channel/0029VaF8RYn9WtC16ecZws0H',
         mediaType: 1,
         renderLargerThumbnail: true, 
