@@ -14,11 +14,11 @@ extendedTextMessage:{
                 contextInfo: {
                      externalAdReply: {
                         title: wm,
-                        body: 'ʙʀᴏᴀᴅᴄᴀsᴛɢʀᴏᴜᴘs', 
+                        body: 'Broadcast', 
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://telegra.ph/file/4ab54f74dc727480029cd.jpg',
+                        thumbnailUrl: 'https://telegra.ph/file/a631aa8322773f503c571.jpg',
                         sourceUrl: 'https://whatsapp.com/channel/0029VaF8RYn9WtC16ecZws0H', 
                         showAdAttribution: true
                     }
